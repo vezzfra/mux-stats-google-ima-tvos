@@ -22,16 +22,6 @@ let package = Package(
         ),
     ],
     targets: [
-        .target(
-            name: "MuxStatsGoogleIMAPluginTVOS",
-            dependencies: [
-                .product(
-                    name: "MUXSDKStats",
-                    package: "mux-stats-sdk-avplayer"
-                ),
-                "GoogleInteractiveMediaAds"
-            ]
-        ),
         .binaryTarget(
             name: "MuxStatsGoogleIMAPluginTVOS",
             url: "https://github.com/muxinc/mux-stats-google-ima/releases/download/v0.13.0/MuxStatsGoogleIMAPluginTVOS.xcframework.zip",
