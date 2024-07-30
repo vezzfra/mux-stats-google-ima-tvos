@@ -2,15 +2,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "MuxStatsGoogleIMAPlugin",
+    name: "MuxStatsGoogleIMAPluginTVOS",
     platforms: [
-        .iOS(.v12)
+        .tvOS(.v12)
     ],
     products: [
         .library(
-            name: "MuxStatsGoogleIMAPlugin",
+            name: "MuxStatsGoogleIMAPluginTVOS",
             targets: [
-                "MuxStatsGoogleIMAPlugin",
+                "MuxStatsGoogleIMAPluginTVOS",
                 "GoogleInteractiveMediaAds",
             ]
         ),
@@ -23,7 +23,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "MuxStatsGoogleIMAPlugin",
+            name: "MuxStatsGoogleIMAPluginTVOS",
             dependencies: [
                 .product(
                     name: "MUXSDKStats",
