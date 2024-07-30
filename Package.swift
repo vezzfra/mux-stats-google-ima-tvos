@@ -11,7 +11,6 @@ let package = Package(
             name: "MuxStatsGoogleIMAPluginTVOS",
             targets: [
                 "MuxStatsGoogleIMAPluginTVOS",
-                "GoogleInteractiveMediaAds",
             ]
         ),
     ],
