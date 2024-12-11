@@ -26,7 +26,7 @@ let package = Package(
             name: "MuxStatsGoogleIMAPluginTVOS",
             url: "https://github.com/muxinc/mux-stats-google-ima/releases/download/v0.13.0/MuxStatsGoogleIMAPluginTVOS.xcframework.zip",
             checksum: "bb71f2120ebff9160f8aeae82d7a7c19ddde3e396c42852d01a04ae2f5fda6e8"
-        )
+        ),
         .binaryTarget(
               name: "GoogleInteractiveMediaAdsTVOS",
               url: "https://imasdk.googleapis.com/downloads/ima/tvos/GoogleInteractiveMediaAds-tvos-v4.12.0.zip",
